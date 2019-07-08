@@ -1,4 +1,14 @@
 
 <h1>Welcome to {{ title }}!</h1>
 
-<router-outlet></router-outlet>
+<div class="content-wrapper">
+  <div class="menu">
+    <ng-container *ngFor="let navItem of navigation">
+      <button mat-button [routerLink]="navItem.link" routerLinkActive="active" class="menu-item">{{ navItem.label }}</button>
+    </ng-container>
+  </div>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

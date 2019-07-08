@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app1';
+
+  navigation = [
+    { link: './', label: 'Welcome' },
+    { link: './login', label: 'Login' },
+    { link: './home/', label: 'Home' }
+  ];
 }
