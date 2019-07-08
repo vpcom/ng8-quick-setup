@@ -1,0 +1,30 @@
+
+  .active {
+    color: white;
+    background-color: #ff3772;
+  }
+
+  .menu-item {
+    margin: 0px 5px 0px 5px;
+
+    &:first-child {
+      margin: 0px 5px 0px 0px;
+    }
+    &:last-child {
+      margin: 0px 0px 0px 5px;
+    }
+  }
+
+  // Defaults for top blocs
+  .content-wrapper {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .menu {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }  
+  .main-content {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
